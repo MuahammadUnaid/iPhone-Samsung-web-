@@ -44,7 +44,53 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <!-- site metas -->
     <title>iphone & sumsung brand</title>
-
+    <style>
+    button {
+        font-size: 18px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        display: inline-block;
+        text-align: center;
+        font-weight: bold;
+        padding: 0.7em 2em;
+        border: 3px solid rgb(51,122,183);
+        border-radius: 2px;
+        position: relative;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+        color: rgb(51,122,183);
+        text-decoration: none;
+        transition: 0.3s ease all;
+        z-index: 1;
+      }
+      
+      button:before {
+        transition: 0.5s all ease;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        right: 50%;
+        bottom: 0;
+        opacity: 0;
+        content: '';
+        background-color: rgb(51,122,183);
+        z-index: -1;
+      }
+      
+      button:hover, button:focus {
+        color: white;
+      }
+      
+      button:hover:before, button:focus:before {
+        transition: 0.5s all ease;
+        left: 0;
+        right: 0;
+        opacity: 1;
+      }
+      
+      button:active {
+        transform: scale(0.9);
+      }
+      </style>
 </head>
 <!-- body -->
 
@@ -187,8 +233,7 @@
                             and versatile features. Offering a wide range of devices from budget-friendly models to
                             high-end flagships like the Galaxy S and Note series, Samsung caters to diverse user needs.
                             Key features often include advanced camera systems, long-lasting batteries, and customizable
-                            interfaces with Samsung's One UI. With robust hardware and regular software updates, Samsung
-                            smartphones provide a powerful and flexible user experience, making them a popular choice
+                                smartphones provide a powerful and flexible user experience, making them a popular choice
                             globally. </p>
 
                     </div>
@@ -240,8 +285,8 @@
                             <i><img src="images/star.png" /></i>
                             <i><img src="images/star.png" /></i>
                             <br> <br>
-                            <button type="button" class="btn btn-primary">Buy Now </button>
-                            <button type="button" class="btn btn-primary">Add to card</button>
+                            <button type="button" class="btn-sm"> Buy now</button>
+                            <button type="button" class="btn-sm">Add to card</button>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 margin">
@@ -256,8 +301,8 @@
                             <i><img src="images/star.png" /></i>
                             <i><img src="images/star.png" /></i>
                             <br> <br>
-                            <button type="button" class="btn btn-primary">Buy Now </button>
-                            <button type="button" class="btn btn-primary">Add to card</button>
+                            <button type="button" class="btn-sm">Buy Now </button>
+                            <button type="button" class=" btn-sm">Add to card</button>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 margin">
@@ -272,8 +317,8 @@
                             <i><img src="images/star.png" /></i>
                             <i><img src="images/star.png" /></i>
                             <br> <br>
-                            <button type="button" class="btn btn-primary">Buy Now </button>
-                            <button type="button" class="btn btn-primary">Add to card</button>
+                            <button type="button" class="btn-sm">Buy Now </button>
+                            <button type="button" class="btn-sm">Add to card</button>
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -300,8 +345,8 @@
                             <i><img src="images/star.png" /></i>
                             <i><img src="images/star.png" /></i>
                             <br> <br>
-                            <button type="button" class="btn btn-primary">Buy Now </button>
-                            <button type="button" class="btn btn-primary">Add to card</button>
+                            <button type="button" class="btn-sm">Buy Now </button>
+                            <button type="button" class="btn-sm">Add to card</button>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 margin">
@@ -316,8 +361,8 @@
                             <i><img src="images/star.png" /></i>
                             <i><img src="images/star.png" /></i>
                             <br> <br>
-                            <button type="button" class="btn btn-primary">Buy Now </button>
-                            <button type="button" class="btn btn-primary">Add to card</button>
+                            <button type="button" class="btn-sm">Buy Now </button>
+                            <button type="button" class="btn-sm">Add to card</button>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 margin">
@@ -332,8 +377,8 @@
                             <i><img src="images/star.png" /></i>
                             <i><img src="images/star.png" /></i>
                              <br> <br>
-                            <button type="button" class="btn btn-primary">Buy Now </button>
-                            <button type="button" class="btn btn-primary">Add to card</button>
+                            <button type="button" class="btn-sm">Buy Now </button>
+                            <button type="button" class="btn-sm">Add to card</button>
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -375,8 +420,8 @@
                             <i><img src="images/star.png" /></i>
                             <i><img src="images/star.png" /></i>
                             <br> <br>
-                            <button type="button" class="btn btn-primary">Buy Now </button>
-                            <button type="button" class="btn btn-primary">Add to card</button>
+                            <button type="button" class="btn-sm">Buy Now </button>
+                            <button type="button" class="btn-sm">Add to card</button>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 margin">
@@ -390,8 +435,8 @@
                             <i><img src="images/star.png" /></i>
                             <i><img src="images/star.png" /></i>
                             <br> <br>
-                            <button type="button" class="btn btn-primary">Buy Now </button>
-                            <button type="button" class="btn btn-primary">Add to card</button>
+                            <button type="button" class="btn-sm">Buy Now </button>
+                            <button type="button" class="btn-sm">Add to card</button>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 margin">
@@ -406,8 +451,8 @@
                             <i><img src="images/star.png" /></i>
                             <i><img src="images/star.png" /></i>
                             <br> <br>
-                            <button type="button" class="btn btn-primary">Buy Now </button>
-                            <button type="button" class="btn btn-primary">Add to card</button>
+                            <button type="button" class="btn-sm">Buy Now </button>
+                            <button type="button" class="btn-sm">Add to card</button>
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -434,8 +479,8 @@
                             <i><img src="images/star.png" /></i>
                             <i><img src="images/star.png" /></i>
                             <br> <br>
-                            <button type="button" class="btn btn-primary">Buy Now </button>
-                            <button type="button" class="btn btn-primary">Add to card</button>
+                            <button type="button" class="btn-sm">Buy Now </button>
+                            <button type="button" class="btn-sm">Add to card</button>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 margin">
@@ -450,8 +495,8 @@
                             <i><img src="images/star.png" /></i>
                             <i><img src="images/star.png" /></i>
                             <br> <br>
-                            <button type="button" class="btn btn-primary">Buy Now </button>
-                            <button type="button" class="btn btn-primary">Add to card</button>
+                            <button type="button" class="btn-sm">Buy Now </button>
+                            <button type="button" class="btn-sm">Add to card</button>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 margin">
@@ -466,8 +511,8 @@
                             <i><img src="images/star.png" /></i>
                             <i><img src="images/star.png" /></i>
                             <br> <br>
-                            <button type="button" class="btn btn-primary">Buy Now </button>
-                            <button type="button" class="btn btn-primary">Add to card</button>
+                            <button type="button" class="btn-sm">Buy Now </button>
+                            <button type="button" class="btn-sm">Add to card</button>
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -508,8 +553,8 @@
                             <i><img src="images/star.png" /></i>
                             <i><img src="images/star.png" /></i>
                             <i><img src="images/star.png" /></i><br> <br>
-                            <button type="button" class="btn btn-primary">Buy Now </button>
-                            <button type="button" class="btn btn-primary">Add to card</button>
+                            <button type="button" class="btn-sm">Buy Now </button>
+                            <button type="button" class="btn-sm">Add to card</button>
                            
                         </div>
                        
@@ -526,8 +571,8 @@
                             <i><img src="images/star.png" /></i>
                             <i><img src="images/star.png" /></i>
                             <br> <br>
-                            <button type="button" class="btn btn-primary">Buy Now </button>
-                            <button type="button" class="btn btn-primary">Add to card</button>
+                            <button type="button" class="btn-sm">Buy Now </button>
+                            <button type="button" class="btn-sm">Add to card</button>
                         </div>
                     </div>
 
@@ -542,8 +587,8 @@
                             <i><img src="images/star.png" /></i>
                             <i><img src="images/star.png" /></i>
                             <br> <br>
-                            <button type="button" class="btn btn-primary">Buy Now </button>
-                            <button type="button" class="btn btn-primary">Add to card</button>
+                            <button type="button" class="btn-sm">Buy Now </button>
+                            <button type="button" class="btn-sm">Add to card</button>
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -570,8 +615,8 @@
                             <i><img src="images/star.png" /></i>
                             <i><img src="images/star.png" /></i>
                             <br> <br>
-                            <button type="button" class="btn btn-primary">Buy Now </button>
-                            <button type="button" class="btn btn-primary">Add to card</button>
+                            <button type="button" class="btn-sm">Buy Now </button>
+                            <button type="button" class="btn-sm">Add to card</button>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 margin">
@@ -586,8 +631,8 @@
                             <i><img src="images/star.png" /></i>
                             <i><img src="images/star.png" /></i>
                             <br> <br>
-                            <button type="button" class="btn btn-primary">Buy Now </button>
-                            <button type="button" class="btn btn-primary">Add to card</button>
+                            <button type="button" class="btn-sm">Buy Now </button>
+                            <button type="button" class="btn-sm">Add to card</button>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 margin">
@@ -601,8 +646,8 @@
                             <i><img src="images/star.png" /></i>
                             <i><img src="images/star.png" /></i>
                             <br> <br>
-                            <button type="button" class="btn btn-primary">Buy Now </button>
-                            <button type="button" class="btn btn-primary">Add to card</button>
+                            <button type="button" class="btn-sm">Buy Now </button>
+                            <button type="button" class="btn-sm">Add to card</button>
                         </div>
                     </div>
                     <div class="col-md-12">
